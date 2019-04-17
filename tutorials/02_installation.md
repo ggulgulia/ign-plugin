@@ -11,7 +11,7 @@ The Source Installation instructions should be used if you need the very latest 
 
 ## Prerequisites
 
-Ignition Plugin version 1 requires Ubuntu Bionic, while version 0
+Ignition Plugin versions 1+ require Ubuntu Bionic, while version 0
 can be used with Ubuntu Xenial.
 
 If you don't already have the `lsb-release` package installed, please do so now:
@@ -75,8 +75,8 @@ sudo apt install libignition-plugin-dev
 
 Ignition Plugin and several of its dependencies can be installed on macOS
 with [Homebrew](http://brew.sh/) using the [osrf/simulation
-tap](https://github.com/osrf/homebrew-simulation). Ignition Plugin version 1
-requires macOS High Sierra (10.13) or later, while version 0 supports
+tap](https://github.com/osrf/homebrew-simulation). Ignition Plugin versions 1+
+require macOS High Sierra (10.13) or later, while version 0 supports
 Sierra (10.12) or later.
 
 ## Binary Installation
@@ -89,7 +89,7 @@ Sierra (10.12) or later.
 2. Run the following commands
   ```bash
   brew tap osrf/simulation
-  brew install ignition-plugin1
+  brew install ignition-plugin2
   ```
 
 ## Source Installation
@@ -97,7 +97,7 @@ Sierra (10.12) or later.
 1. Install dependencies
   ```bash
   brew tap osrf/simulation
-  brew install ignition-plugin1 --only-dependencies
+  brew install ignition-plugin2 --only-dependencies
   ```
 
 2. Clone the repository
@@ -131,7 +131,6 @@ Create if necessary, and activate a Conda environment:
 ```bash
 conda create -n ign-ws
 conda activate ign-ws
-```
 
 ## Binary Installation
 
