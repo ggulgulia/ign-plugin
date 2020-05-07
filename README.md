@@ -9,12 +9,12 @@
 
 Build | Status
 -- | --
-Test coverage | [![codecov](https://codecov.io/gh/ignitionrobotics/ign-plugin/branch/ign-plugin1/graph/badge.svg)](https://codecov.io/gh/ignitionrobotics/ign-plugin/branch/ign-plugin1)
-Ubuntu Bionic | [![Build Status](https://build.osrfoundation.org/job/ignition_plugin-ci-ign-plugin1-bionic-amd64/badge/icon)](https://build.osrfoundation.org/job/ignition_plugin-ci-ign-plugin1-bionic-amd64/)
-Homebrew      | [![Build Status](https://build.osrfoundation.org/job/ignition_plugin-ci-ign-plugin1-bionic-amd64/badge/icon)](https://build.osrfoundation.org/job/ignition_plugin-ci-ign-plugin1-bionic-amd64/)
-Windows       | [![Build Status](https://build.osrfoundation.org/buildStatus/icon?job=ign_plugin-ign-1-win)](https://build.osrfoundation.org/job/ign_plugin-ign-1-win/)
+Test coverage | [![codecov](https://codecov.io/gh/ignitionrobotics/ign-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/ignitionrobotics/ign-plugin/branch/master)
+Ubuntu Bionic | [![Build Status](https://build.osrfoundation.org/job/ignition_plugin-ci-master-bionic-amd64/badge/icon)](https://build.osrfoundation.org/job/ignition_plugin-ci-master-bionic-amd64/)
+Homebrew      | [![Build Status](https://build.osrfoundation.org/job/ignition_plugin-ci-master-bionic-amd64/badge/icon)](https://build.osrfoundation.org/job/ignition_plugin-ci-master-bionic-amd64/)
+Windows 7     | [![Build Status](https://build.osrfoundation.org/job/ignition_plugin-ci-master-windows7-amd64/badge/icon)](https://build.osrfoundation.org/job/ignition_plugin-ci-master-windows7-amd64/)
 
-**Library for registering plugin libraries and dynamically loading them at runtime.**
+** Library for registering plugin libraries and dynamically loading them at runtime.**
 
 Ignition Plugin is a component in the ignition framework, a set
 of libraries designed to rapidly develop robot applications.
