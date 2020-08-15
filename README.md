@@ -21,8 +21,6 @@ of libraries designed to rapidly develop robot applications.
 
 [http://ignitionrobotics.org](http://ignitionrobotics.org)
 
-## Features
-
 * Registration of **templated and non-templated** classes from any translation unit.
 * Querying of interfaces **by C++ type or name string**.
 * **Dynamically load** plugins at runtime according to the interfaces they provide.
