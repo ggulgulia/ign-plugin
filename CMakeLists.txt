@@ -40,6 +40,12 @@ ign_find_package(DL
 find_program(IGN_TOOLS_PROGRAM ign)
 
 
+#--------------------------------------
+# Find ignition-utils
+ign_find_package(ignition-utils1 REQUIRED COMPONENTS cli)
+set(IGN_UTILS_VER ${ignition-utils1_VERSION_MAJOR})
+
+
 #============================================================================
 # Configure the build
 #============================================================================
